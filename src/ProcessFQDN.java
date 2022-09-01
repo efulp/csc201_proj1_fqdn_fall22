@@ -3,7 +3,7 @@
  * is a command line argument.
  *
  * Useage:
- *   java ProcessFQDN2 -[c|t|s] names.txt results.txt
+ *   java ProcessFQDN -[d|s] names.txt results.txt
  *
  * @author Nirre Pluf {@literal }
  * @version 0.1, Aug. 31, 2022
@@ -17,7 +17,7 @@ public class ProcessFQDN {
    /**
     * main method, where the magic starts...
     
-    * @param args String[], -[c|t|s] names.txt results.txt
+    * @param args String[], -[d|s] names.txt results.txt
     */
     public static void main(String[] args) {
         List<String> uniqueHost = null;  // unique hostnames
